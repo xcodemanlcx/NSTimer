@@ -14,6 +14,7 @@
 		185B57171AAED15B00CBB047 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185B57161AAED15B00CBB047 /* Images.xcassets */; };
 		185B571A1AAED15B00CBB047 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185B57181AAED15B00CBB047 /* LaunchScreen.xib */; };
 		185B57261AAED15B00CBB047 /* NSTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B57251AAED15B00CBB047 /* NSTimerTests.m */; };
+		185B57311AAED17900CBB047 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B57301AAED17900CBB047 /* BaseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		185B571F1AAED15B00CBB047 /* NSTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		185B57241AAED15B00CBB047 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		185B57251AAED15B00CBB047 /* NSTimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSTimerTests.m; sourceTree = "<group>"; };
+		185B572F1AAED17900CBB047 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		185B57301AAED17900CBB047 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				185B570E1AAED15B00CBB047 /* AppDelegate.m */,
 				185B57101AAED15B00CBB047 /* ViewController.h */,
 				185B57111AAED15B00CBB047 /* ViewController.m */,
+				185B572F1AAED17900CBB047 /* BaseViewController.h */,
+				185B57301AAED17900CBB047 /* BaseViewController.m */,
 				185B57131AAED15B00CBB047 /* Main.storyboard */,
 				185B57161AAED15B00CBB047 /* Images.xcassets */,
 				185B57181AAED15B00CBB047 /* LaunchScreen.xib */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				185B57121AAED15B00CBB047 /* ViewController.m in Sources */,
+				185B57311AAED17900CBB047 /* BaseViewController.m in Sources */,
 				185B570F1AAED15B00CBB047 /* AppDelegate.m in Sources */,
 				185B570C1AAED15B00CBB047 /* main.m in Sources */,
 			);
